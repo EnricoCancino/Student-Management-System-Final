@@ -1,6 +1,6 @@
 # Student-Management-System-Final
 
-### Open the pyhton folder, open frontend, run the Login-Page
+### Open the python folder, open the frontend.
 
 ## Instructions
 
