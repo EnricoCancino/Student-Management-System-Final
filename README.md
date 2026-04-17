@@ -1,5 +1,7 @@
 # Student-Management-System-Final
 
+### Open the pyhton folder, open frontend, run the Login-Page
+
 ## Instructions
 
 #------- Run the Program -------
