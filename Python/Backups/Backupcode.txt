@@ -1,0 +1,27 @@
+from tkinter import *
+from PIL import Image, ImageTk
+
+window=Tk()
+
+window.geometry("1280x700+0+0")
+
+window.resizable(False, False)
+
+image = Image.open("Frontend/PhotoHouse/Background-python.jpg")
+image = image.resize((1280, 700), Image.Resampling.LANCZOS)
+backgroundImage = ImageTk.PhotoImage(image)
+
+bgLabel=Label(window,image=backgroundImage)
+bgLabel.place(x=0,y=0)
+
+loginFrame = Frame(window)
+loginFrame.place(x=400, y=150)
+
+logoImage = PhotoImage(file="Frontend/PhotoHouse/Students.png")
+logoLabel = Label(loginFrame, image=logoImage)
+logoLabel.pack(pady=10)
+
+usernameLabel = Label(loginFrame, text="Username", font=("Arial", 14), bg="#ffffff")
+usernameLabel.pack(pady=5)  
+
+window.mainloop()
