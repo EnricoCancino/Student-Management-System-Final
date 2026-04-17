@@ -1,5 +1,6 @@
 # Student-Management-System-Final
-SE-2 Final Project 
+
+## Instructions
 
 #------- Run the Program -------
 To run the program, follow these steps:
